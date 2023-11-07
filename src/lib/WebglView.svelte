@@ -11,9 +11,9 @@ export let height = 640
     console.log(gl)
     // gl?.useProgram(program); 
     // Set clear color to black, fully opaque
-    gl.clearColor(0.5, 0.5, 0.5, 1.0);
+    //gl.clearColor(0.0, 0.0, 0.0, 1.0);
     // Clear the color buffer with specified clear color
-    gl.clear(gl.COLOR_BUFFER_BIT);
+    //gl.clear(gl.COLOR_BUFFER_BIT);
 
     // Here's where we call the routine that builds all the
     // objects we'll be drawing.
